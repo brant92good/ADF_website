@@ -152,7 +152,19 @@ export default function Home() {
               <div className="p-2 bg-cyan-950/50 rounded-lg border border-cyan-800">
                 <ShieldCheck className="w-6 h-6 text-cyan-400" />
               </div>
-              <h1 className="text-2xl font-bold tracking-tight text-white uppercase">Audio Deepfake Detection</h1>
+              <div className="min-w-0 space-y-2">
+                <h1 className="text-2xl font-bold tracking-tight text-white uppercase">Audio Deepfake Detection</h1>
+                <a
+                  href="/reports/nstc-114-2813-C-035-061-E-report-20260330.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  lang="zh-Hant"
+                  className="inline-block rounded text-sm text-cyan-300 underline underline-offset-4 hover:text-cyan-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyan-300"
+                >
+                  研究報告 PDF · 72 頁 · 2026/03/30
+                </a>
+                <p className="text-xs text-slate-400">NSTC 114-2813-C-035-061-E</p>
+              </div>
             </header>
 
             {/* ===== TOP SECTION: RECORD -> GENERATE -> OUTPUT ===== */}
